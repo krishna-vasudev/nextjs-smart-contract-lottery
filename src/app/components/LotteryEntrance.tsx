@@ -130,8 +130,9 @@ export default function LotteryEntrance() {
             <div>Number of Players:{numPlayers}</div>
             <div>Recent Winner:{recentWinner}</div>
             <div>Raffle State:{raffleState}</div>
+            <div>Yay! Lottery...</div>
         </div>):
-        (<div>Hi from Lottery Entrance! Invalid Raffle address...</div>)
+        (<div className='p-5'>Hi from Lottery Entrance! Invalid Raffle address...</div>)
         }
     </>
   )
